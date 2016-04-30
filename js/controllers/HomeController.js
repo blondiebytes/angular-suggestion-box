@@ -10,7 +10,7 @@ app.controller('HomeController', ['$scope', 'suggestions', function($scope, sugg
 		// push suggestion posts in suggestions.js
 		$scope.posts.push({
 			title: $scope.title,
-			upvotes:0
+			upvotes:0,
 			comments:[]
 		})
 		
